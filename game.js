@@ -4,7 +4,7 @@ var buttonColors = ["red", "blue", "green", "yellow"];
 var level = -1;
 var hasStarted = 0;
 
-$(document).keypress(function() {
+$(document).click(function() {
 	if (hasStarted == 0) {
 		nextSequence();
 		hasStarted = 1;
